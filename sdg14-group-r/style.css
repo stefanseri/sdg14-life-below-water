@@ -1,0 +1,245 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f0faff;
+  color: #123044;
+}
+
+/* NAVBAR */
+.navbar {
+  background: #d9f3fc;
+  border-bottom: 2px solid #90d5e8;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  color: #005f83;
+}
+
+.nav-link {
+  color: #164e63;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #00a6c7;
+}
+
+/* BANNER */
+.banner {
+  text-align: center;
+  padding: 20px 20px;
+  border-bottom: 2px solid black;
+}
+.banner h1 {
+  font-weight: bold;
+}
+.banner p {
+  font-style: italic;
+  margin-bottom: 25px;
+}
+
+/* PLEDGE BUTTON */
+.btn-pledge {
+  border: 2px solid black;
+  color: black;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+.btn-pledge:hover {
+  background: black;
+  color: white;
+}
+
+/* MAIN PAGE */
+
+/* STATS */
+.impacts {
+  padding: 30px 15px;
+  text-align: center;
+}
+
+.impacts h2 {
+  margin-bottom: 20px;
+}
+
+.impact-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+/* BOXES */
+.impact-card {
+  width: 100%;
+  max-width: 600px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f8fcfd;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.impact-card h3 {
+  font-size: 19px;
+  margin-bottom: 10px;
+  color: #087e8b;
+}
+
+/* IMAGES */
+.impact-img {
+  width: 480px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+.impact-card p {
+  font-size: 14px;
+  margin-bottom: 0;
+  line-height: 1.5;
+}
+
+.solutions-img {
+  width: 140px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+/* TOPIC CARDS */
+.topic-card {
+  border: 2px solid #75c9df;
+  border-radius: 15px;
+  padding: 40px 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #005f83;
+  background: linear-gradient(
+    135deg,
+    #ffffff,
+    #d9f3fc
+  );
+  box-shadow: 0 4px 10px rgba(0, 95, 131, 0.1);
+  transition: 0.3s;
+}
+
+/* PAGE TITLE */
+.page-title {
+  text-align: center;
+  padding: 0px 20px;
+  background: linear-gradient(
+    #d9f3fc,
+    #f0faff
+  );
+  border-bottom: 3px solid #90d5e8;
+  position: relative;
+}
+
+.page-title h1 {
+  font-weight: bold;
+  color: #005f83;
+}
+
+.page-title p {
+  color: #397b91;
+  font-style: italic;
+}
+.page-title h1 {
+  font-weight: bold;
+}
+
+/* SECTIONS + BOXES (other pages) */
+.section {
+  padding: 30px 15px;
+}
+.box {
+  border: 2px solid #75c9df;
+  border-radius: 15px;
+  padding: 20px 20px;
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: #005f83;
+  background: linear-gradient(
+    #ffffff,
+    #d9f3fc
+  );
+  box-shadow: 0 4px 10px rgba(0, 95, 131, 0.1);
+  transition: 0.3s;
+}
+.solutionsBox {
+  border: 1px solid #75c9df;
+  border-radius: 15px;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #005f83;
+  background: linear-gradient(
+    #ffffff,
+    #d9f3fc
+  );
+  box-shadow: 0 4px 10px rgba(0, 95, 131, 0.1);
+  transition: 0.3s;
+}
+form.box {
+  text-align: left;
+  font-size: 1rem;
+}
+.mainPageList {
+  border: 2px solid #75c9df;
+  border-radius: 2px;
+  padding: 1px 1px;
+  text-align: center;
+  font-size: 0.4rem;
+  font-weight: bold;
+  color: #005f83;
+  background: linear-gradient(
+    #ffffff,
+    #d9f3fc
+  );
+  box-shadow: 0 4px 10px rgba(0, 95, 131, 0.1);
+  transition: 0.3s;
+  }
+
+/* FOOTER */
+footer {
+  background: #064b68;
+  color: white;
+  border-top: 4px solid #39b8d5;
+  text-align: center;
+  padding: 25px;
+}
+
+footer p {
+  margin: 0;
+}
+
+/* LINE CHARTS */
+.chart-container {
+  position: relative;
+  width: 100%;
+  height: 220px;
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #90d5e8;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 3px 8px rgba(0, 95, 131, 0.08);
+}
+
+/* PIE CHART */
+.pie-chart {
+  max-width: 1000px;
+  height: 600px;
+  margin: 40px auto;
+  border: 1px solid #90d5e8;
+  border-radius: 15px;
+  background: white;
+  padding: 15px;
+}
